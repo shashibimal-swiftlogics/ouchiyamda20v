@@ -1,0 +1,10 @@
+node_modules/
+dist/
+internal/
+.env
+.env.*
+!.env.example
+*.docx
+*.xlsx
+*.pdf
+.DS_Store
