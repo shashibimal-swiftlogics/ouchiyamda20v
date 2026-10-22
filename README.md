@@ -1,32 +1,35 @@
-# Ouchi Yamada 2.0 Project Explanation Website
+# Yamada Udon — Vision 2.6.2
 
-A website framework for explaining a three-phase project to executives, directors and division heads.
+Bilingual management presentation using Next.js App Router, TypeScript and Tailwind CSS. Updates the existing shashibimal-swiftlogics/ouchiyamda20v repository and Vercel project.
 
-## Project status
+## Development
 
-Framework and content structure are ready for development. The demonstration content is a generic planning example. It is not an approved company plan, actual performance report or evidence of project completion.
+Node 24.x; pnpm 11.25.0. Run `pnpm install --frozen-lockfile`, `pnpm dev`, `pnpm test`, `pnpm check`, `pnpm build`, `pnpm start`.
+On restricted Windows environments: `pnpm install --frozen-lockfile --store-dir .pnpm-store --node-linker=hoisted`.
 
-## Develop
+## Pages
 
-Use Node.js 20 or later. No external packages are required.
+- `/`: overview and connected plan map
+- `/capabilities/W01` through W10: permanent capabilities
+- `/engines/P01` through P12: revenue paths
+- `/products/L0` through L3: product lines
+- `/projects/PJ-OY2-01` through PJ-OY2-10: execution proposals
+- `/roadmap`: three phases and separate gate systems
+- `/decisions`: source-era open items and assumption-only contribution calculator
+- `/evidence`: source references, confidence taxonomy and limitations
 
-- `npm run check` validates navigation, IDs and content.
-- `npm test` verifies content validation and missing-content handling.
-- `npm run build` produces the website in `dist/`.
-- Serve `dist/` with a local static server to review the result.
+Directories support bilingual search and status filters. Mobile navigation, keyboard focus, skip link, English visibility toggle and bilingual print styles are included. No external fonts or image services are required.
 
-## Content
+## Sources and public content
 
-`src/content.example.json` is the public demonstration. For the internal site, use a reviewed `internal/content.json` with the same structure. The build uses this internal file when present and labels its output accordingly. Internal content is excluded from Git, as are generated pages.
+The supplied Vision 2.6.2 All-in-One Master Plan (19 October 2026): official names pp.6–8, roadmap and financial definitions p.29, management decisions p.32. Operating descriptions also draw on Poster Review Draft v1.0. `content/vision.json` holds curated summaries. Page references identify the internal original; PDFs and internal financial figures are not published.
 
-Every phase contains an overview and sections for models, projects, customers, operations, systems, economics, ownership, roadmap, evidence and discussions. Every section has a direct link and navigation button.
+All programme states remain proposals, research or future concepts. No corporate approvals, live integrations or actual results are implied. Open decisions are source-era records, not live approval records. The calculator uses browser memory only; inputs are not saved or transmitted. `noindex` is not authentication. Do not add confidential content without appropriate access controls.
 
-The framework is file-based. It does not store comments, approve decisions, connect to customer systems or collect personal data. A future authenticated content editor requires a separate specification.
+## Vercel repair
 
-## Access and publishing
+Deployment FesQYit3gKKCprAVpXi3858zacDp at commit 7421658 failed because Vercel expected `public` while the old build emitted `dist`. `vercel.json` explicitly selects Next.js, `pnpm build`, a frozen lockfile and `.next` output. Node is pinned to 24.x. No replacement repository or Vercel project is required.
 
-This repository is public. Do not commit internal company documents, financial information, personal data or credentials. Build internal content only in an authorized environment and publish its output to an access-controlled site. Do not enable public GitHub Pages for internal content. Repository visibility and site access are separate controls.
+The former vanilla-JavaScript demo remains in Git history. Its automatic internal-content fallback is removed from the production build.
 
-## Planning documents
-
-Detailed company blueprints and source documents are maintained separately until the content-storage and access approach is confirmed. `docs/content-workflow.md` describes review and editing.
+See docs/content-workflow.md and docs/verification.md.

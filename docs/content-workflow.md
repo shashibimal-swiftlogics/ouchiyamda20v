@@ -1,16 +1,11 @@
 # Content workflow
 
-1. Identify the authoritative business source and its version.
-2. Map a source section to a phase, section and project record.
-3. Prepare a plain-language summary, explanation, dependencies and discussion questions.
-4. Preserve evidence classifications and approval status. Dates and targets are not actual results.
-5. Have the responsible content owner review the material.
-6. Validate IDs, links and required fields before building.
-7. Review the output and publish to the agreed audience.
-8. Record the release version, changes and next review date.
+Preserve current edition, printed page references, codes and official Japanese/English names. Provide everyday and professional explanation layers. Web summaries are editorial adaptations.
 
-Use separate fields for project lifecycle, evidence quality, approval state and publication status. Never infer that the newest document is approved.
+Keep FACT, EXT, ASSUMPTION, PROPOSED and UNCONFIRMED distinct. RESEARCH and FUTURE describe planning maturity. Do not infer current performance or approval from a source-era label.
 
-# Button rules
+Edit content/vision.json for directories and detail records. Shared narrative is in app/page.tsx and app/[section]/page.tsx. Run tests, type checking, production build and responsive browser review after changes. Record corrections in Git. Add approval only with documented evidence.
 
-A phase button opens its overview. A section button opens the matching explanation. Discussion links navigate to questions; they do not submit comments or record approval. Previous, index and next links reflect the visible navigation order.
+Master: p.1 taxonomy, p.2 principles, pp.6–8 official names, pp.27–29 execution and roadmap, p.32 decisions. Phase 1 gates G0–G3 (p.8) and lifecycle gates G0–G6 (p.29) are separate systems.
+
+This repository is public. Do not commit source PDFs, internal financial records, personal/customer data or credentials. The site has no authentication or shared approval persistence.

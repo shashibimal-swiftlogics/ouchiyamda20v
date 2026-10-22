@@ -1,0 +1,664 @@
+{
+  "version": "2.6.2",
+  "sourceDate": "2026-10-19",
+  "units": [
+    {
+      "id": "W01",
+      "ja": "組織・ガバナンス",
+      "en": "Organisation & Governance",
+      "simpleJa": "権限・担当・手順と判断の記録をそろえる。",
+      "simpleEn": "Make it clear who decides and who acts.",
+      "professionalJa": "責任の地図：実行・確認・決裁を区別し、代理担当も記入。変更案件の見える化：起案・審査・実施・振り返りの状態を表示。判断の記録：理由・条件・期限・再確認日を残す。",
+      "professionalEn": "Separate execution, review and approval roles, name backups, and record conditions, deadlines and reasons for decisions.",
+      "status": "PROPOSED",
+      "page": 6,
+      "detailPages": [
+        10
+      ],
+      "related": [],
+      "checksJa": "権限表と代理担当／変更案件の数え方／予算と発売の分離"
+    },
+    {
+      "id": "W02",
+      "ja": "EC・デジタル販路",
+      "en": "EC & Digital Channels",
+      "simpleJa": "ネット売り場の掲載・注文・出荷を管理する。",
+      "simpleEn": "Build and run the online places where customers buy Yamada products.",
+      "professionalJa": "掲載する：商品・価格・在庫・配送条件を一致させる。受け付ける：注文・決済・欠品・取消を確認する。届ける：出荷連携と問い合わせの引継ぎを記録する。",
+      "professionalEn": "Align product listings, prices, stock and delivery terms. Define order, payment, cancellation and fulfilment handovers.",
+      "status": "PROPOSED",
+      "page": 6,
+      "detailPages": [
+        10
+      ],
+      "related": [
+        "W03",
+        "W07",
+        "W08",
+        "P01",
+        "P05"
+      ],
+      "checksJa": "テスト注文／取消・返金手順／商品と在庫の同期"
+    },
+    {
+      "id": "W03",
+      "ja": "商品・デジタルMD",
+      "en": "Product & Digital Merchandising",
+      "simpleJa": "品ぞろえ・価格・見せ方を設計する。",
+      "simpleEn": "Decide what to sell, how to present it and at what price.",
+      "professionalJa": "商品を選ぶ：用途・量・温度帯・供給条件を整理。採算を確かめる：原価と配送費を価格案に反映。伝わる売り場：写真・調理・表示・セット内容を一致。",
+      "professionalEn": "Design the range around use, portion, temperature and supply. Reflect costs in pricing and keep images, preparation and labels consistent.",
+      "status": "PROPOSED",
+      "page": 6,
+      "detailPages": [
+        11
+      ],
+      "related": [
+        "W02",
+        "P04",
+        "P06",
+        "P01"
+      ],
+      "checksJa": "画像と実物の一致／規格と表示／価格承認"
+    },
+    {
+      "id": "W04",
+      "ja": "SNS・集客",
+      "en": "Social Media & Customer Acquisition",
+      "simpleJa": "SNSとQRの発信・流入を計測する。",
+      "simpleEn": "Use social media to make Yamada known and bring in customers.",
+      "professionalJa": "誰に伝えるか：家庭の食事・贈り物など用途を絞る。何を伝えるか：味・調理・使い方を短く見せる。どう測るか：投稿別リンクとQRで流入を確認。",
+      "professionalEn": "Choose a customer use case, explain preparation and value, and use campaign links and QR codes to measure visits.",
+      "status": "PROPOSED",
+      "page": 6,
+      "detailPages": [
+        11
+      ],
+      "related": [
+        "W02",
+        "P03",
+        "P04",
+        "W09"
+      ],
+      "checksJa": "素材使用権／誘導先・計測／投稿承認"
+    },
+    {
+      "id": "W05",
+      "ja": "検索（SEO・AI検索）",
+      "en": "Search (SEO & AI Search)",
+      "simpleJa": "検索・地図・AI向けの公式情報を整える。",
+      "simpleEn": "Help people find Yamada through search, maps and AI.",
+      "professionalJa": "公式情報の基準：店名・営業時間・商品説明を管理。見つけやすくする：見出し・リンク・FAQを整える。確かめて直す：検索流入と誤情報を確認する。",
+      "professionalEn": "Maintain official store and product information, improve headings and FAQs, and review search traffic and inaccurate information.",
+      "status": "PROPOSED",
+      "page": 6,
+      "detailPages": [
+        12
+      ],
+      "related": [
+        "W08",
+        "W02",
+        "P03"
+      ],
+      "checksJa": "公式情報の出所／FAQの事実確認／更新担当"
+    },
+    {
+      "id": "W06",
+      "ja": "CRM・会員",
+      "en": "Customer Relationship Management (CRM) & Membership",
+      "simpleJa": "同意を得た会員の情報と連絡を管理する。",
+      "simpleEn": "Stay connected with customers through LINE and membership.",
+      "professionalJa": "同意：連絡目的と受信希望を確認する。会員情報：ID・同意履歴・配信停止を管理する。連絡：役に立つ案内を届け反応を確認する。",
+      "professionalEn": "Record consent, customer IDs and opt-outs. Send useful messages and assess responses within agreed contact rules.",
+      "status": "PROPOSED",
+      "page": 6,
+      "detailPages": [
+        12
+      ],
+      "related": [
+        "P02",
+        "W08",
+        "W09"
+      ],
+      "checksJa": "同意記録／解除テスト／アクセス権"
+    },
+    {
+      "id": "W07",
+      "ja": "物流・生産連携",
+      "en": "Logistics & Production Integration",
+      "simpleJa": "生産・在庫・温度・配送を連携する。",
+      "simpleEn": "Make and deliver safely and correctly, from the factory to the customer.",
+      "professionalJa": "作る：必要数量と生産可能量を合わせる。保管する：SKU・ロット・温度帯を管理する。届ける：出荷条件と異常時の連絡を共有。",
+      "professionalEn": "Align demand and production capacity. Manage SKUs, lots and temperatures, with shipping rules and incident escalation.",
+      "status": "PROPOSED",
+      "page": 6,
+      "detailPages": [
+        13
+      ],
+      "related": [
+        "W02",
+        "P06",
+        "P07",
+        "P09",
+        "P10"
+      ],
+      "checksJa": "温度帯／ロット追跡／異常時の対応"
+    },
+    {
+      "id": "W08",
+      "ja": "山田AIデータハブ",
+      "en": "Yamada AI Data Hub",
+      "simpleJa": "商品番号とデータをつなぎ、共通基盤を作る。",
+      "simpleEn": "Connect store, EC, customer and financial data.",
+      "professionalJa": "共通ID：SKU・販路・注文の対応を定義。接続：取込元・頻度・アクセス権を管理。品質：欠損・重複・金額差を検知して修正。",
+      "professionalEn": "Define shared product, channel and order identifiers. Establish data sources, access rights and checks for missing, duplicate or inconsistent records.",
+      "status": "PROPOSED",
+      "page": 6,
+      "detailPages": [
+        14
+      ],
+      "related": [
+        "W05",
+        "W06",
+        "W09",
+        "W10",
+        "P01"
+      ],
+      "checksJa": "ID対応表／権限と履歴／差異の処理責任"
+    },
+    {
+      "id": "W09",
+      "ja": "調査・データ・BI",
+      "en": "Research, Data & Business Intelligence (BI)",
+      "simpleJa": "根拠と数字を比べ、結果を分析する。",
+      "simpleEn": "Research, compare and decide the next move from the numbers.",
+      "professionalJa": "定義：期間・母数・単位を固定する。検証：基準値・施策・結果を比較する。判断：根拠の強さと不確実性を伝える。",
+      "professionalEn": "Fix periods, denominators and units. Reconcile baselines, compare interventions and outcomes, and communicate uncertainty.",
+      "status": "PROPOSED",
+      "page": 6,
+      "detailPages": [
+        14
+      ],
+      "related": [
+        "W08",
+        "W01"
+      ],
+      "checksJa": "母数と期間／実績と予測／出典の追跡"
+    },
+    {
+      "id": "W10",
+      "ja": "AI・RPA",
+      "en": "AI & Robotic Process Automation (RPA)",
+      "simpleJa": "決まった作業を人の確認の下で自動化する。",
+      "simpleEn": "Hand routine work to AI and automation with human checks.",
+      "professionalJa": "対象を選ぶ：反復・定型・低リスクの作業から。人が確認する：入力・出力・例外を点検する。戻せる運用：ログ・停止・手動代替を用意。",
+      "professionalEn": "Begin with repetitive, low-risk tasks. Review inputs and outputs, log exceptions, and retain stop controls and manual alternatives.",
+      "status": "PROPOSED",
+      "page": 6,
+      "detailPages": [
+        15
+      ],
+      "related": [
+        "W08",
+        "W01",
+        "W02",
+        "W09"
+      ],
+      "checksJa": "人の確認／停止と手動復帰／アクセス制御"
+    },
+    {
+      "id": "P01",
+      "ja": "EC採算・原価",
+      "en": "EC Profitability & Unit Cost",
+      "simpleJa": "注文ごとの費用と残る利益を確認する。",
+      "simpleEn": "Make sure every order leaves a real profit.",
+      "professionalJa": "入るお金：値引き・返金・税の扱いを統一。かかる費用：原価・包装・送料・手数料等を照合。残るお金：注文別・販路別に限界利益を比較。",
+      "professionalEn": "Reconcile net receipts and order-level product, packaging, freight and channel costs before comparing contribution by channel.",
+      "status": "PROPOSED",
+      "page": 7,
+      "detailPages": [
+        16
+      ],
+      "related": [
+        "W02",
+        "W07",
+        "W08",
+        "W09"
+      ],
+      "checksJa": "基準値照合／送料・手数料／利益定義と税区分"
+    },
+    {
+      "id": "P02",
+      "ja": "会員・リピート・定期便",
+      "en": "Membership, Repeat & Subscription",
+      "simpleJa": "会員施策と再購入・定期便の採算を検証する。",
+      "simpleEn": "Turn one-time buyers into repeat customers.",
+      "professionalJa": "再購入：購入後の案内と使い方を試す。継続価値：割引以外の便利さを設計する。定期便の条件：頻度・休止・解約・採算を確認。",
+      "professionalEn": "Test post-purchase guidance and convenience beyond discounts. Evaluate frequency, pause, cancellation and subscription economics.",
+      "status": "PROPOSED",
+      "page": 7,
+      "detailPages": [
+        16,
+        17
+      ],
+      "related": [
+        "W06",
+        "W09",
+        "P01"
+      ],
+      "checksJa": "観察期間と母数／解除・休止導線／継続時の採算"
+    },
+    {
+      "id": "P03",
+      "ja": "店舗網×EC",
+      "en": "Store Network × EC",
+      "simpleJa": "店からECへの流れと店舗の負担を測る。",
+      "simpleEn": "Turn store customers into online customers too.",
+      "professionalJa": "案内する：レジ・卓上・持帰り導線を選ぶ。つなぐ：店舗別の識別リンクでECへ。測る：購入とスタッフの負担を同時に確認。",
+      "professionalEn": "Select in-store placements and store-specific links. Measure purchases alongside staff workload; QR contact alone does not establish incremental sales.",
+      "status": "PROPOSED",
+      "page": 7,
+      "detailPages": [
+        16,
+        17
+      ],
+      "related": [
+        "W04",
+        "W05",
+        "W02",
+        "P02"
+      ],
+      "checksJa": "店長確認／QRと遷移先／店舗負担の記録"
+    },
+    {
+      "id": "P04",
+      "ja": "ギフト・季節・ふるさと納税",
+      "en": "Gifts, Seasonal & Furusato Nozei",
+      "simpleJa": "ギフト・季節・ふるさと納税の需要を開く。",
+      "simpleEn": "Win new customers with gifts, seasonal offers and furusato nozei.",
+      "professionalJa": "用途：贈る相手・季節・量を決める。商品と配送：包装・納期・温度帯を合わせる。制度と採算：各販路の条件・手数料を確認。",
+      "professionalEn": "Define recipient, occasion and quantity. Align packaging, delivery deadlines and temperature, then check channel terms and contribution.",
+      "status": "PROPOSED",
+      "page": 7,
+      "detailPages": [
+        16,
+        18
+      ],
+      "related": [
+        "W03",
+        "W07",
+        "P01"
+      ],
+      "checksJa": "包装仕様／配送締切／制度・取引条件"
+    },
+    {
+      "id": "P05",
+      "ja": "デジタル販路",
+      "en": "Digital Sales Channels",
+      "simpleJa": "販路ごとの費用と利益を比べる。",
+      "simpleEn": "Grow sales on online marketplaces that suit each product.",
+      "professionalJa": "適合：顧客・温度帯・商品規格との相性。費用：手数料・広告・配送・返品を比較。運用：在庫・受注・問い合わせ負担を確認。",
+      "professionalEn": "Compare customer fit, temperature requirements, fees, advertising, returns and the workload of stock and customer support.",
+      "status": "PROPOSED",
+      "page": 7,
+      "detailPages": [
+        16,
+        18
+      ],
+      "related": [
+        "W02",
+        "W07",
+        "P01"
+      ],
+      "checksJa": "取引条件／全費用比較／在庫・受注の対応"
+    },
+    {
+      "id": "P06",
+      "ja": "冷凍新商品・ヒーロー",
+      "en": "Frozen New Products & Hero Products",
+      "simpleJa": "主力冷凍商品と新商品の需要・品質を試す。",
+      "simpleEn": "Turn popular restaurant menu items into products to eat at home.",
+      "professionalJa": "味と用途：家庭の調理条件を確かめる。品質と規格：冷凍・包装・表示・供給を確認。需要と利益：限定試験で購入と反応を測る。",
+      "professionalEn": "Test household preparation, freezing, packaging, labelling and supply. Assess demand and contribution in limited trials before launch.",
+      "status": "PROPOSED",
+      "page": 7,
+      "detailPages": [
+        16,
+        19
+      ],
+      "related": [
+        "W03",
+        "W07",
+        "P01"
+      ],
+      "checksJa": "品質試験／家庭での調理／試作と発売の区別"
+    },
+    {
+      "id": "P07",
+      "ja": "法人・業務用",
+      "en": "B2B & Foodservice",
+      "simpleJa": "業務用の規格・見積・供給力を検証する。",
+      "simpleEn": "Sell Yamada products to companies, schools, facilities and restaurants.",
+      "professionalJa": "相手の条件：量・調理・納品・支払を確認。提案と見積：規格・価格・供給枠をそろえる。継続供給：受注条件と品質対応を決める。",
+      "professionalEn": "Clarify quantity, preparation, delivery and payment needs. Align specifications, quotes, supply capacity and quality responsibilities.",
+      "status": "PROPOSED",
+      "page": 7,
+      "detailPages": [
+        16,
+        20
+      ],
+      "related": [
+        "W03",
+        "W07",
+        "P01"
+      ],
+      "checksJa": "業務用規格／供給枠／支払・返品条件"
+    },
+    {
+      "id": "P08",
+      "ja": "常温・防災・BCP",
+      "en": "Ambient, Emergency Food & Business Continuity (BCP)",
+      "simpleJa": "常温・備蓄商品の保存性と採算を調べる。",
+      "simpleEn": "Explore products that keep without freezing.",
+      "professionalJa": "用途調査：家庭・企業の備蓄条件を聞く。技術確認：保存性・調理・包装の課題を整理。見積比較：OEM・検査・最低数量・物流を比較。",
+      "professionalEn": "Research household and business stockpile needs. Compare shelf-life validation, packaging, OEM quotes, testing and minimum order quantities.",
+      "status": "RESEARCH",
+      "page": 7,
+      "detailPages": [
+        16,
+        20
+      ],
+      "related": [
+        "W03",
+        "W07",
+        "W09"
+      ],
+      "checksJa": "調査範囲／保存性の確認項目／見積の前提条件"
+    },
+    {
+      "id": "P09",
+      "ja": "小売・卸・生協・TV通販",
+      "en": "Retail, Wholesale, Co-op & TV Shopping",
+      "simpleJa": "小売・卸などの取引条件と供給力を調べる。",
+      "simpleEn": "Explore supermarkets, co-ops, TV shopping and other outside channels.",
+      "professionalJa": "取引条件：掛率・販促費・返品・支払を確認。商品条件：規格・表示・温度帯・数量を確認。供給条件：製造・物流の対応可否を試算。",
+      "professionalEn": "Check margins, promotion costs, returns and payment terms alongside product specifications, required volumes and production capacity.",
+      "status": "RESEARCH",
+      "page": 7,
+      "detailPages": [
+        16,
+        21
+      ],
+      "related": [
+        "W07",
+        "W09",
+        "P01",
+        "P06"
+      ],
+      "checksJa": "販路別条件／返品と販促費／供給能力"
+    },
+    {
+      "id": "P10",
+      "ja": "工場・OEM・PB",
+      "en": "Factory, OEM & Private Label (PB)",
+      "simpleJa": "工場の余力と他社向け製造の条件を確認する。",
+      "simpleEn": "Explore manufacturing products for other companies.",
+      "professionalJa": "余力：既存供給を守れる生産枠を確認。仕様：原料・工程・包装・検査条件を確認。見積：切替・検査・最低ロット・責任範囲を整理。",
+      "professionalEn": "Protect existing supply while assessing spare capacity. Specify ingredients, processes, testing, changeover costs and responsibility boundaries.",
+      "status": "RESEARCH",
+      "page": 7,
+      "detailPages": [
+        16,
+        22
+      ],
+      "related": [
+        "W03",
+        "W07",
+        "P01"
+      ],
+      "checksJa": "能力と切替時間／仕様・責任範囲／全費用の見積"
+    },
+    {
+      "id": "P11",
+      "ja": "海外",
+      "en": "Overseas",
+      "simpleJa": "海外の需要・ルール・物流費を調べる。",
+      "simpleEn": "Explore demand, requirements and delivery costs overseas.",
+      "professionalJa": "需要仮説：誰に何を届けるかを整理。成立条件：表示・規制・商流・物流を調査。判断材料：費用・責任・情報不足を明記。",
+      "professionalEn": "Define a customer and product hypothesis, then investigate labelling, regulations, distribution and freight before any investment decision.",
+      "status": "FUTURE",
+      "page": 7,
+      "detailPages": [
+        16,
+        22
+      ],
+      "related": [
+        "W09",
+        "W07",
+        "P01"
+      ],
+      "checksJa": "将来表示／国別の専門確認／輸送費と責任"
+    },
+    {
+      "id": "P12",
+      "ja": "FC・ライセンス",
+      "en": "Franchise & Licensing",
+      "simpleJa": "FC・ライセンスの供給と品質の仕組みを調べる。",
+      "simpleEn": "Explore growth through franchise and licensing partners.",
+      "professionalJa": "再現性：商品・運営・教育を標準化できるか。供給と品質：継続供給・監査・是正を設計。権利と収益：契約・商標・支援費を検討。",
+      "professionalEn": "Assess repeatable operations, training, supply, quality audits, contracts, trademarks and support costs before a partnership decision.",
+      "status": "FUTURE",
+      "page": 7,
+      "detailPages": [
+        16,
+        23
+      ],
+      "related": [
+        "W01",
+        "W03",
+        "W07",
+        "P01"
+      ],
+      "checksJa": "将来表示／品質と供給責任／権利と契約の審査"
+    }
+  ],
+  "projects": [
+    {
+      "id": "PJ-OY2-01",
+      "ja": "データ・基準値整備",
+      "en": "Baseline & Data Preparation",
+      "simpleJa": "売上・原価・送料の数字を一つにそろえ、比べる元を決める",
+      "simpleEn": "Align sales, costs and freight definitions before comparing outcomes.",
+      "status": "PROPOSED",
+      "page": 8,
+      "related": [
+        "W08",
+        "W09",
+        "P01"
+      ]
+    },
+    {
+      "id": "PJ-OY2-02",
+      "ja": "採算改善",
+      "en": "Profitability Improvement",
+      "simpleJa": "送料・箱・手数料を見直し、1件の利益を回復する",
+      "simpleEn": "Review freight, packaging and fees to improve contribution per order.",
+      "status": "PROPOSED",
+      "page": 8,
+      "related": [
+        "W07",
+        "P01"
+      ]
+    },
+    {
+      "id": "PJ-OY2-03",
+      "ja": "ヒーロー商品（パンチ10袋）",
+      "en": "Hero Product (Punch 10-Pack)",
+      "simpleJa": "パンチ10袋の看板商品を、小さく試して確かめる",
+      "simpleEn": "Test a clear ten-pack offer for the Punch hero product.",
+      "status": "PROPOSED",
+      "page": 8,
+      "related": [
+        "W03",
+        "P06"
+      ]
+    },
+    {
+      "id": "PJ-OY2-04",
+      "ja": "ギフト受取人QR",
+      "en": "Gift Recipient QR",
+      "simpleJa": "ギフトを受け取った人を、次のお客様にする",
+      "simpleEn": "Invite gift recipients to a subsequent purchase using a QR journey.",
+      "status": "PROPOSED",
+      "page": 8,
+      "related": [
+        "W06",
+        "P04"
+      ]
+    },
+    {
+      "id": "PJ-OY2-05",
+      "ja": "LINE会員CRM",
+      "en": "LINE Membership CRM",
+      "simpleJa": "LINE会員で、2回目の購入につなげる",
+      "simpleEn": "Test whether consent-based LINE membership supports second purchases.",
+      "status": "PROPOSED",
+      "page": 8,
+      "related": [
+        "W06",
+        "P02"
+      ]
+    },
+    {
+      "id": "PJ-OY2-06",
+      "ja": "Yahoo!最適化",
+      "en": "Yahoo! Store Optimisation",
+      "simpleJa": "写真・説明・損益を整え、今ある店で売上を伸ばす",
+      "simpleEn": "Improve photos, descriptions and economics on the existing channel.",
+      "status": "PROPOSED",
+      "page": 8,
+      "related": [
+        "W02",
+        "P05"
+      ]
+    },
+    {
+      "id": "PJ-OY2-07",
+      "ja": "B2B手打ちキット（Shopify）",
+      "en": "B2B Teuchi Kit via Shopify",
+      "simpleJa": "手打ちキットを会社・団体向けに試験する",
+      "simpleEn": "Test a business enquiry and order journey for the teuchi kit.",
+      "status": "PROPOSED",
+      "page": 8,
+      "related": [
+        "W02",
+        "P07"
+      ]
+    },
+    {
+      "id": "PJ-OY2-08",
+      "ja": "店舗QR送客",
+      "en": "In-Store QR Traffic",
+      "simpleJa": "店舗からQR・LINE・ECへつながる導線を試す",
+      "simpleEn": "Test a store-to-QR-to-LINE-to-EC journey with staff workload checks.",
+      "status": "PROPOSED",
+      "page": 8,
+      "related": [
+        "W04",
+        "P03"
+      ]
+    },
+    {
+      "id": "PJ-OY2-09",
+      "ja": "バスケット設計（客単価）",
+      "en": "Basket Engine (Order Value)",
+      "simpleJa": "箱の中身と送料を一緒に設計し、客単価を上げる",
+      "simpleEn": "Design contents and freight together to improve basket economics.",
+      "status": "PROPOSED",
+      "page": 8,
+      "related": [
+        "W03",
+        "P01"
+      ]
+    },
+    {
+      "id": "PJ-OY2-10",
+      "ja": "パンチ コンテンツ",
+      "en": "Punch Content",
+      "simpleJa": "食べ方を発信して、知らない人にも買ってもらう",
+      "simpleEn": "Explain ways to enjoy Punch and assess response to the content.",
+      "status": "PROPOSED",
+      "page": 8,
+      "related": [
+        "W04",
+        "P06"
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "L0",
+      "ja": "既存品",
+      "en": "Existing Products",
+      "simpleJa": "パンチ・キット・ギフトを、もっと選びやすくする。",
+      "simpleEn": "Make Punch, kits and gifts easier to choose.",
+      "related": [
+        "W03",
+        "P01",
+        "P04"
+      ],
+      "gateJa": "既存品のセット内容・価格・配送条件を確認。",
+      "gateEn": "Review existing sets, pricing and shipping conditions.",
+      "status": "PROPOSED",
+      "page": 7
+    },
+    {
+      "id": "L1",
+      "ja": "丼・フルセット（冷凍）",
+      "en": "Don & Full Sets (Frozen)",
+      "simpleJa": "1人分の冷凍の丼の具とセットを試す。",
+      "simpleEn": "Test single-serve frozen don toppings and meal sets.",
+      "related": [
+        "W03",
+        "W07",
+        "P06"
+      ],
+      "gateJa": "試作・温度・表示・供給能力・採算を確認して発売判断。",
+      "gateEn": "Review prototypes, temperature, labels, capacity and economics before a launch decision.",
+      "status": "PROPOSED",
+      "page": 7
+    },
+    {
+      "id": "L2",
+      "ja": "防災備蓄食（常温・OEM）",
+      "en": "Stockpile Food (Ambient, OEM)",
+      "simpleJa": "常温で長く保存できる防災食を、長い利益の柱に育てる案。",
+      "simpleEn": "Explore long-life emergency food as a future profit pillar.",
+      "related": [
+        "W03",
+        "P08",
+        "P10"
+      ],
+      "gateJa": "OEM見積、保存性の検証、品質審査が必要。保存年数は保証しない。",
+      "gateEn": "Requires OEM quotes, shelf-life validation and quality review. No shelf-life guarantee is implied.",
+      "status": "PROPOSED",
+      "page": 7
+    },
+    {
+      "id": "L3",
+      "ja": "新商品",
+      "en": "New Products",
+      "simpleJa": "カレー・餃子・カップ麺などを、小さく試して選ぶ。",
+      "simpleEn": "Test curry, gyoza, cup noodles and other ideas on a small scale.",
+      "related": [
+        "W03",
+        "P06",
+        "P08"
+      ],
+      "gateJa": "ADD-01で1企画を選び、少量試験の結果で次を判断。",
+      "gateEn": "Select one concept through ADD-01 and use small-trial evidence to decide the next step.",
+      "status": "PROPOSED",
+      "page": 7
+    }
+  ]
+}

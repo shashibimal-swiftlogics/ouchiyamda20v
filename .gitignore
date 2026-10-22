@@ -8,3 +8,7 @@ internal/
 *.xlsx
 *.pdf
 .DS_Store
+
+.next/
+.pnpm-store/
+*.tsbuildinfo
