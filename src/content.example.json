@@ -1,593 +1,1238 @@
 {
-  "title": "EC Ouchi Yamada 2.0",
-  "audience": "Executives · Directors · Division heads",
-  "mode": "Public framework demonstration",
-  "summary": "A shared place to explain the complete project, explore every phase and prepare informed discussions.",
-  "phases": [
+ "version": "Vision 2.6.2",
+ "title": {
+  "ja": "山田うどん EC・デジタル成長",
+  "en": "Yamada Udon EC & Digital Growth"
+ },
+ "audience": {
+  "ja": "役員・部長・管理職のための説明",
+  "en": "Explainer for directors, division heads and managers"
+ },
+ "status": {
+  "ja": "案（経営{承認|しょうにん}前）",
+  "en": "Proposal, pending management approval"
+ },
+ "tags": {
+  "FACT": {
+   "ja": "社内データや公的資料で確認できた事実",
+   "en": "Confirmed by internal data or public sources"
+  },
+  "EXT": {
+   "ja": "他社・市場の事例。山田の売上予測ではない",
+   "en": "Other companies or the market; not a Yamada forecast"
+  },
+  "ASSUMPTION": {
+   "ja": "見積り・計算。目標や保証ではない",
+   "en": "Estimate or calculation; not a target or guarantee"
+  },
+  "PROPOSED": {
+   "ja": "提案。{承認|しょうにん}されるまで決定ではない",
+   "en": "Proposal; not a decision until approved"
+  },
+  "UNCONFIRMED": {
+   "ja": "未{照合|しょうごう}。予算や判断に直接使わない",
+   "en": "Not yet reconciled; not used for budgets or decisions"
+  }
+ },
+ "groups": [
+  {
+   "id": "w",
+   "code": "W01–W10",
+   "title": {
+    "ja": "会社を動かす10の{仕組|しく}み",
+    "en": "10 Core Systems That Make Yamada Work"
+   },
+   "intro": {
+    "ja": "毎日の仕事を支える{仕組|しく}み。お金は直接生まないが、全部を支える。",
+    "en": "Systems for daily work. They earn nothing directly but support everything."
+   },
+   "items": [
     {
-      "id": "phase-1",
-      "name": "Prove",
-      "number": 1,
-      "summary": "Establish the baseline, improve the current experience and test focused opportunities.",
-      "sections": [
-        {
-          "id": "phase-1/overview",
-          "title": "Executive Overview",
-          "button": "Explain this phase",
-          "summary": "Establish the baseline, improve the current experience and test focused opportunities.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-1/business-models",
-          "title": "Business Models",
-          "button": "Explore models",
-          "summary": "Explain which model fits the customer need and how it would operate.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-1/projects",
-          "title": "Projects and Initiatives",
-          "button": "View projects",
-          "summary": "Define the scope, dependencies and completion criteria for each initiative.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-1/customer-products",
-          "title": "Customers and Products",
-          "button": "Explore customers and products",
-          "summary": "Connect a specific customer need with a clearly defined offer.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-1/operations",
-          "title": "Operations and Delivery",
-          "button": "Review operations",
-          "summary": "Explain production, stock, delivery, service and capacity requirements.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-1/technology-data",
-          "title": "Systems and Data",
-          "button": "Review systems and data",
-          "summary": "Identify existing capabilities, required information and justified changes.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-1/economics",
-          "title": "Financial Framework",
-          "button": "Review financial framework",
-          "summary": "State the cost assumptions and evidence needed for a commercial decision.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-1/ownership",
-          "title": "Responsibilities",
-          "button": "View responsibilities",
-          "summary": "Identify the accountable owner, contributing teams and decision authority.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-1/roadmap",
-          "title": "Roadmap",
-          "button": "View roadmap",
-          "summary": "Show the sequence and dependencies without treating planned dates as completed work.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-1/evidence-gates",
-          "title": "Evidence and Gates",
-          "button": "Review evidence and gates",
-          "summary": "Define what evidence is needed before proceeding, changing or stopping.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-1/discussion-decisions",
-          "title": "Discussion and Decisions",
-          "button": "Open discussion points",
-          "summary": "Make the unresolved questions and options easy to review together.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        }
-      ]
+     "id": "w01",
+     "code": "W01",
+     "name": {
+      "ja": "{組織|そしき}・ガバナンス",
+      "en": "Organisation & Governance"
+     },
+     "explain": {
+      "ja": "誰が決めて、誰が動くかをはっきりさせる",
+      "en": "Make it clear who decides and who acts"
+     },
+     "nickname": {
+      "ja": "決め方",
+      "en": "How We Decide"
+     },
+     "pro": {
+      "ja": "権限・担当・手順と判断の記録をそろえる。",
+      "en": "Define authority, owners, procedures and decision records."
+     },
+     "links": [
+      "p01"
+     ],
+     "status": "old"
     },
     {
-      "id": "phase-2",
-      "name": "Transform and Expand",
-      "number": 2,
-      "summary": "Develop proven opportunities with the capacity, ownership and economics they need.",
-      "sections": [
-        {
-          "id": "phase-2/overview",
-          "title": "Executive Overview",
-          "button": "Explain this phase",
-          "summary": "Develop proven opportunities with the capacity, ownership and economics they need.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-2/business-models",
-          "title": "Business Models",
-          "button": "Explore models",
-          "summary": "Explain which model fits the customer need and how it would operate.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-2/projects",
-          "title": "Projects and Initiatives",
-          "button": "View projects",
-          "summary": "Define the scope, dependencies and completion criteria for each initiative.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-2/customer-products",
-          "title": "Customers and Products",
-          "button": "Explore customers and products",
-          "summary": "Connect a specific customer need with a clearly defined offer.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-2/operations",
-          "title": "Operations and Delivery",
-          "button": "Review operations",
-          "summary": "Explain production, stock, delivery, service and capacity requirements.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-2/technology-data",
-          "title": "Systems and Data",
-          "button": "Review systems and data",
-          "summary": "Identify existing capabilities, required information and justified changes.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-2/economics",
-          "title": "Financial Framework",
-          "button": "Review financial framework",
-          "summary": "State the cost assumptions and evidence needed for a commercial decision.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-2/ownership",
-          "title": "Responsibilities",
-          "button": "View responsibilities",
-          "summary": "Identify the accountable owner, contributing teams and decision authority.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-2/roadmap",
-          "title": "Roadmap",
-          "button": "View roadmap",
-          "summary": "Show the sequence and dependencies without treating planned dates as completed work.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-2/evidence-gates",
-          "title": "Evidence and Gates",
-          "button": "Review evidence and gates",
-          "summary": "Define what evidence is needed before proceeding, changing or stopping.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-2/discussion-decisions",
-          "title": "Discussion and Decisions",
-          "button": "Open discussion points",
-          "summary": "Make the unresolved questions and options easy to review together.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        }
-      ]
+     "id": "w02",
+     "code": "W02",
+     "name": {
+      "ja": "EC・デジタル{販路|はんろ}",
+      "en": "EC & Digital Channels"
+     },
+     "explain": {
+      "ja": "山田の商品を買えるネットの売り場を整え、毎日動かす",
+      "en": "Build and run the online places where customers buy Yamada products"
+     },
+     "nickname": {
+      "ja": "売る場所",
+      "en": "Where We Sell"
+     },
+     "pro": {
+      "ja": "ネット売り場の掲載・注文・出荷を管理する。",
+      "en": "Manage online listings, orders and shipping."
+     },
+     "links": [
+      "p05",
+      "p07"
+     ],
+     "status": "todo"
     },
     {
-      "id": "phase-3",
-      "name": "Scale",
-      "number": 3,
-      "summary": "Evaluate wider expansion once repeatability and operating readiness are demonstrated.",
-      "sections": [
-        {
-          "id": "phase-3/overview",
-          "title": "Executive Overview",
-          "button": "Explain this phase",
-          "summary": "Evaluate wider expansion once repeatability and operating readiness are demonstrated.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-3/business-models",
-          "title": "Business Models",
-          "button": "Explore models",
-          "summary": "Explain which model fits the customer need and how it would operate.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-3/projects",
-          "title": "Projects and Initiatives",
-          "button": "View projects",
-          "summary": "Define the scope, dependencies and completion criteria for each initiative.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-3/customer-products",
-          "title": "Customers and Products",
-          "button": "Explore customers and products",
-          "summary": "Connect a specific customer need with a clearly defined offer.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-3/operations",
-          "title": "Operations and Delivery",
-          "button": "Review operations",
-          "summary": "Explain production, stock, delivery, service and capacity requirements.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-3/technology-data",
-          "title": "Systems and Data",
-          "button": "Review systems and data",
-          "summary": "Identify existing capabilities, required information and justified changes.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-3/economics",
-          "title": "Financial Framework",
-          "button": "Review financial framework",
-          "summary": "State the cost assumptions and evidence needed for a commercial decision.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-3/ownership",
-          "title": "Responsibilities",
-          "button": "View responsibilities",
-          "summary": "Identify the accountable owner, contributing teams and decision authority.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-3/roadmap",
-          "title": "Roadmap",
-          "button": "View roadmap",
-          "summary": "Show the sequence and dependencies without treating planned dates as completed work.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-3/evidence-gates",
-          "title": "Evidence and Gates",
-          "button": "Review evidence and gates",
-          "summary": "Define what evidence is needed before proceeding, changing or stopping.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        },
-        {
-          "id": "phase-3/discussion-decisions",
-          "title": "Discussion and Decisions",
-          "button": "Open discussion points",
-          "summary": "Make the unresolved questions and options easy to review together.",
-          "explanation": "This is a demonstration of the explanation structure. The reviewed company plan will supply the detailed content for this section.",
-          "implications": [
-            "Describe the customer or business benefit.",
-            "Explain the people, processes and capabilities required."
-          ],
-          "questions": [
-            "What evidence supports this direction?",
-            "Who is accountable for the next decision?"
-          ],
-          "status": "Demonstration content",
-          "sources": []
-        }
-      ]
+     "id": "w03",
+     "code": "W03",
+     "name": {
+      "ja": "商品・デジタルMD",
+      "en": "Product & Digital Merchandising"
+     },
+     "explain": {
+      "ja": "何を、どう見せて、いくらで売るかを決める",
+      "en": "Decide what to sell, how to present it and at what price"
+     },
+     "nickname": {
+      "ja": "売れる商品づくり",
+      "en": "Products That Sell"
+     },
+     "pro": {
+      "ja": "品ぞろえ・価格・見せ方を設計する。",
+      "en": "Design the assortment, prices and product display."
+     },
+     "links": [
+      "p06",
+      "p01"
+     ],
+     "status": "todo"
+    },
+    {
+     "id": "w04",
+     "code": "W04",
+     "name": {
+      "ja": "SNS・{集客|しゅうきゃく}",
+      "en": "Social Media & Customer Acquisition"
+     },
+     "explain": {
+      "ja": "SNSで山田を知ってもらい、お客様を増やす",
+      "en": "Use social media to make Yamada known and bring in customers"
+     },
+     "nickname": {
+      "ja": "知ってもらう",
+      "en": "Get Known"
+     },
+     "pro": {
+      "ja": "SNSとQRの発信・流入を計測する。",
+      "en": "Plan social and QR activity and measure visits."
+     },
+     "links": [
+      "p03",
+      "p06"
+     ],
+     "status": "old"
+    },
+    {
+     "id": "w05",
+     "code": "W05",
+     "name": {
+      "ja": "{検索|けんさく}（SEO・AI検索）",
+      "en": "Search (SEO & AI Search)"
+     },
+     "explain": {
+      "ja": "検索・地図・AIで山田を見つけてもらう",
+      "en": "Help people find Yamada through search, maps and AI"
+     },
+     "nickname": {
+      "ja": "見つけてもらう",
+      "en": "Get Found"
+     },
+     "pro": {
+      "ja": "検索・地図・AI向けの公式情報を整える。",
+      "en": "Maintain official facts for search, maps and AI."
+     },
+     "links": [
+      "p05"
+     ],
+     "status": "old"
+    },
+    {
+     "id": "w06",
+     "code": "W06",
+     "name": {
+      "ja": "CRM・{会員|かいいん}",
+      "en": "Customer Relationship Management (CRM) & Membership"
+     },
+     "explain": {
+      "ja": "LINE・会員で、お客様とつながり続ける",
+      "en": "Stay connected with customers through LINE and membership"
+     },
+     "nickname": {
+      "ja": "ファンづくり",
+      "en": "Build Fans"
+     },
+     "pro": {
+      "ja": "同意を得た会員の情報と連絡を管理する。",
+      "en": "Manage consented member information and contact."
+     },
+     "links": [
+      "p02",
+      "p04"
+     ],
+     "status": "todo"
+    },
+    {
+     "id": "w07",
+     "code": "W07",
+     "name": {
+      "ja": "{物流|ぶつりゅう}・{生産連携|せいさんれんけい}",
+      "en": "Logistics & Production Integration"
+     },
+     "explain": {
+      "ja": "入間工場からお客様まで、安全に正しく届ける",
+      "en": "Make and deliver safely and correctly, from Iruma factory to the customer"
+     },
+     "nickname": {
+      "ja": "作って届ける",
+      "en": "Make & Deliver"
+     },
+     "pro": {
+      "ja": "生産・在庫・温度・配送を連携する。",
+      "en": "Coordinate production, stock, temperature and delivery."
+     },
+     "links": [
+      "p01",
+      "p04"
+     ],
+     "status": "todo"
+    },
+    {
+     "id": "w08",
+     "code": "W08",
+     "name": {
+      "ja": "山田AIデータハブ",
+      "en": "Yamada AI Data Hub"
+     },
+     "explain": {
+      "ja": "店・EC・お客様・お金のデータを一つにつなぐ",
+      "en": "Connect store, EC, customer and money data in one place"
+     },
+     "nickname": {
+      "ja": "データをつなぐ",
+      "en": "Connect the Data"
+     },
+     "pro": {
+      "ja": "商品番号とデータをつなぎ、共通基盤を作る。",
+      "en": "Connect product IDs and data in one shared foundation."
+     },
+     "links": [
+      "p01"
+     ],
+     "status": "done"
+    },
+    {
+     "id": "w09",
+     "code": "W09",
+     "name": {
+      "ja": "{調査|ちょうさ}・データ・BI",
+      "en": "Research, Data & Business Intelligence (BI)"
+     },
+     "explain": {
+      "ja": "調べて、比べて、数字から次の一手を決める",
+      "en": "Research, compare and decide the next move from the numbers"
+     },
+     "nickname": {
+      "ja": "数字で決める",
+      "en": "Decide with Data"
+     },
+     "pro": {
+      "ja": "根拠と数字を比べ、結果を分析する。",
+      "en": "Compare evidence and figures and analyse results."
+     },
+     "links": [
+      "p01"
+     ],
+     "status": "done"
+    },
+    {
+     "id": "w10",
+     "code": "W10",
+     "name": {
+      "ja": "AI・RPA",
+      "en": "AI & Robotic Process Automation (RPA)"
+     },
+     "explain": {
+      "ja": "決まった仕事をAIと自動化に任せる",
+      "en": "Hand routine work to AI and automation"
+     },
+     "nickname": {
+      "ja": "手作業を減らす",
+      "en": "Less Manual Work"
+     },
+     "pro": {
+      "ja": "決まった作業を人の確認の下で自動化する。",
+      "en": "Automate repeat tasks with human checks."
+     },
+     "links": [],
+     "status": "todo"
     }
-  ]
+   ]
+  },
+  {
+   "id": "p",
+   "code": "P01–P12",
+   "title": {
+    "ja": "売上と利益をつくる12の道",
+    "en": "12 Revenue Paths for Sales & Profit"
+   },
+   "intro": {
+    "ja": "{段階|だんかい}的に進める。P08〜P10はまず調査と見積。P11・P12は将来構想。",
+    "en": "Develop in stages: P08–P10 start with research and quotes; P11–P12 are future ideas."
+   },
+   "items": [
+    {
+     "id": "p01",
+     "code": "P01",
+     "name": {
+      "ja": "EC{採算|さいさん}・{原価|げんか}",
+      "en": "EC Profitability & Unit Cost"
+     },
+     "explain": {
+      "ja": "1件売るたびに、きちんと利益を残す",
+      "en": "Make sure each sale leaves a profit"
+     },
+     "nickname": {
+      "ja": "利益を残す",
+      "en": "Keep the Profit"
+     },
+     "pro": {
+      "ja": "注文ごとの費用と残る利益を確認する。",
+      "en": "Check each order's costs and remaining profit."
+     },
+     "links": [
+      "w08",
+      "w09"
+     ],
+     "status": "done",
+     "phase": "1"
+    },
+    {
+     "id": "p02",
+     "code": "P02",
+     "name": {
+      "ja": "会員・リピート・{定期便|ていきびん}",
+      "en": "Membership, Repeat & Subscription"
+     },
+     "explain": {
+      "ja": "一度のお客様を、何度も買うお客様にする",
+      "en": "Turn one-time buyers into repeat customers"
+     },
+     "nickname": {
+      "ja": "また買ってもらう",
+      "en": "Bring Them Back"
+     },
+     "pro": {
+      "ja": "会員施策と再購入・{定期便|ていきびん}の{採算|さいさん}を検証する。",
+      "en": "Test member activity, repeat buying and subscription economics."
+     },
+     "links": [
+      "w06"
+     ],
+     "status": "done",
+     "phase": "1"
+    },
+    {
+     "id": "p03",
+     "code": "P03",
+     "name": {
+      "ja": "{店舗網|てんぽもう}×EC",
+      "en": "Store Network × EC"
+     },
+     "explain": {
+      "ja": "店舗のお客様を、ネットのお客様にもする",
+      "en": "Help store customers shop online too"
+     },
+     "nickname": {
+      "ja": "お店からネットへ",
+      "en": "From Store to Online"
+     },
+     "pro": {
+      "ja": "店からECへの流れと店舗の負担を測る。",
+      "en": "Measure the store-to-EC path and store workload."
+     },
+     "links": [
+      "w04"
+     ],
+     "status": "done",
+     "phase": "1"
+    },
+    {
+     "id": "p04",
+     "code": "P04",
+     "name": {
+      "ja": "ギフト・季節・ふるさと{納税|のうぜい}",
+      "en": "Gifts, Seasonal & Furusato Nozei"
+     },
+     "explain": {
+      "ja": "贈り物・季節・ふるさと納税で新しいお客様を増やす",
+      "en": "Reach new customers through gifts, seasons and furusato nozei"
+     },
+     "nickname": {
+      "ja": "ギフトで広げる",
+      "en": "Grow with Gifts"
+     },
+     "pro": {
+      "ja": "ギフト・季節・ふるさと納税の需要を開く。",
+      "en": "Develop gift, seasonal and furusato-nozei demand."
+     },
+     "links": [
+      "w06",
+      "w07"
+     ],
+     "status": "todo",
+     "phase": "1"
+    },
+    {
+     "id": "p05",
+     "code": "P05",
+     "name": {
+      "ja": "デジタル{販路|はんろ}",
+      "en": "Digital Sales Channels"
+     },
+     "explain": {
+      "ja": "商品に合ったほかのネット売り場で売上を増やす",
+      "en": "Grow sales on other online marketplaces that fit each product"
+     },
+     "nickname": {
+      "ja": "ネット売り場を広げる",
+      "en": "More Online Marketplaces"
+     },
+     "pro": {
+      "ja": "{販路|はんろ}ごとの費用と利益を比べる。",
+      "en": "Compare costs and profit across sales channels."
+     },
+     "links": [
+      "w02",
+      "w05"
+     ],
+     "status": "done",
+     "phase": "1"
+    },
+    {
+     "id": "p06",
+     "code": "P06",
+     "name": {
+      "ja": "{冷凍|れいとう}新商品・ヒーロー",
+      "en": "Frozen New Products & Hero Products"
+     },
+     "explain": {
+      "ja": "お店の人気メニューを、家で食べる商品にする",
+      "en": "Turn favourite store dishes into food for home"
+     },
+     "nickname": {
+      "ja": "人気メニューを商品に",
+      "en": "Store Favourites at Home"
+     },
+     "pro": {
+      "ja": "主力{冷凍|れいとう}商品と新商品の需要・品質を試す。",
+      "en": "Test demand and quality for hero and new frozen products."
+     },
+     "links": [
+      "w03",
+      "w04"
+     ],
+     "status": "done",
+     "phase": "1"
+    },
+    {
+     "id": "p07",
+     "code": "P07",
+     "name": {
+      "ja": "{法人|ほうじん}・{業務用|ぎょうむよう}",
+      "en": "B2B & Foodservice"
+     },
+     "explain": {
+      "ja": "会社・学校・施設・飲食店にも山田の商品を売る",
+      "en": "Sell Yamada products to companies, schools, facilities and restaurants"
+     },
+     "nickname": {
+      "ja": "会社にも売る",
+      "en": "Sell to Businesses"
+     },
+     "pro": {
+      "ja": "{業務用|ぎょうむよう}の規格・見積・供給力を検証する。",
+      "en": "Test business pack sizes, quotes and supply capacity."
+     },
+     "links": [
+      "w02",
+      "w07"
+     ],
+     "status": "done",
+     "phase": "1"
+    },
+    {
+     "id": "p08",
+     "code": "P08",
+     "name": {
+      "ja": "{常温|じょうおん}・{防災|ぼうさい}・BCP",
+      "en": "Ambient, Emergency Food & Business Continuity (BCP)"
+     },
+     "explain": {
+      "ja": "{冷凍|れいとう}しなくても保存できる商品で新しい売上をつくる",
+      "en": "Create new sales with food that keeps without freezing"
+     },
+     "nickname": {
+      "ja": "{常温|じょうおん}商品",
+      "en": "Shelf-Stable Products"
+     },
+     "pro": {
+      "ja": "{常温|じょうおん}・{備蓄|びちく}商品の保存性と{採算|さいさん}を調べる。",
+      "en": "Research shelf life and economics for ambient emergency food."
+     },
+     "links": [
+      "w03",
+      "w07"
+     ],
+     "status": "done",
+     "phase": "1"
+    },
+    {
+     "id": "p09",
+     "code": "P09",
+     "name": {
+      "ja": "{小売|こうり}・{卸|おろし}・生協・TV通販",
+      "en": "Retail, Wholesale, Co-op & TV Shopping"
+     },
+     "explain": {
+      "ja": "スーパー・生協・TV通販など、山田以外の売り場でも売る",
+      "en": "Sell through supermarkets, co-ops, TV shopping and other sellers"
+     },
+     "nickname": {
+      "ja": "外の売り場",
+      "en": "Other Stores"
+     },
+     "pro": {
+      "ja": "小売・卸などの取引条件と供給力を調べる。",
+      "en": "Check retail and wholesale terms and supply capacity."
+     },
+     "links": [
+      "w07"
+     ],
+     "status": "todo",
+     "phase": "2"
+    },
+    {
+     "id": "p10",
+     "code": "P10",
+     "name": {
+      "ja": "{工場|こうじょう}・OEM・PB",
+      "en": "Factory, OEM & Private Label (PB)"
+     },
+     "explain": {
+      "ja": "入間工場の力を、他社の商品づくりにも活かす",
+      "en": "Use Iruma factory skills to make products for other companies"
+     },
+     "nickname": {
+      "ja": "工場で稼ぐ",
+      "en": "Earn from Our Factory"
+     },
+     "pro": {
+      "ja": "工場の余力と他社向け製造の条件を確認する。",
+      "en": "Check factory capacity and terms for making others' products."
+     },
+     "links": [
+      "w07"
+     ],
+     "status": "todo",
+     "phase": "2"
+    },
+    {
+     "id": "p11",
+     "code": "P11",
+     "name": {
+      "ja": "{海外|かいがい}",
+      "en": "Overseas"
+     },
+     "explain": {
+      "ja": "山田の商品を海外のお客様・企業へ届ける",
+      "en": "Bring Yamada products to overseas customers and businesses"
+     },
+     "nickname": {
+      "ja": "海外に売る",
+      "en": "Sell Overseas"
+     },
+     "pro": {
+      "ja": "海外の需要・ルール・{物流|ぶつりゅう}費を調べる。",
+      "en": "Research overseas demand, rules and shipping costs."
+     },
+     "links": [
+      "w07",
+      "w09"
+     ],
+     "status": "todo",
+     "phase": "3"
+    },
+    {
+     "id": "p12",
+     "code": "P12",
+     "name": {
+      "ja": "FC・ライセンス",
+      "en": "Franchise & Licensing"
+     },
+     "explain": {
+      "ja": "自社だけでなく、パートナーの力で山田を広げる",
+      "en": "Grow Yamada with partner companies, not only on our own"
+     },
+     "nickname": {
+      "ja": "パートナーと広げる",
+      "en": "Grow with Partners"
+     },
+     "pro": {
+      "ja": "FC・ライセンスの供給と品質の{仕組|しく}みを調べる。",
+      "en": "Study supply and quality systems for franchise and licensing."
+     },
+     "links": [
+      "w01"
+     ],
+     "status": "todo",
+     "phase": "3"
+    }
+   ]
+  }
+ ],
+ "mode": {
+  "ja": "公開用デモ（数字・決裁なし）",
+  "en": "Public demonstration (no figures or decisions)"
+ },
+ "pages": [
+  {
+   "id": "home",
+   "chapter": "0",
+   "title": {
+    "ja": "全体を1分で",
+    "en": "The whole plan in one minute"
+   },
+   "brief": {
+    "ja": "山田は「大きなネットショップ」を目指すのではありません。工場、店のメニュー、店舗、お客様との関係、ブランドという今ある強みを、利益の出る複数の{販路|はんろ}でお金に変えます。{仕組|しく}み（W）を整え、お金の入口（P）を12に分け、売る商品（L）を4つのラインにし、まず6か月（第1{段階|だんかい}）で{取組|とりく}み（PJ）を小さく試します。",
+    "en": "Yamada will not try to become a bigger web shop. We turn existing strengths — factory, menu, stores, customer relationships and brand — into money through several profitable channels: organise capabilities (W), split revenue into 12 paths (P), group products into 4 lines (L), and first test projects (PJ) for six months."
+   },
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      {
+       "ja": "約束",
+       "en": "Promise"
+      },
+      {
+       "ja": "意味",
+       "en": "Meaning"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "ja": "① 利益が先、売上は後",
+        "en": "① Profit before sales"
+       },
+       {
+        "ja": "1注文ごとに、いくら残るかを先に確かめる。",
+        "en": "Check what each order leaves first."
+       }
+      ],
+      [
+       {
+        "ja": "② 同時に動かすのは3件まで",
+        "en": "② Max three changes at once"
+       },
+       {
+        "ja": "今のお客様への注文・お届けを守りながら進める。",
+        "en": "Protect today's orders and deliveries."
+       }
+      ],
+      [
+       {
+        "ja": "③ 小さく試し、証拠で広げる",
+        "en": "③ Test small, scale on evidence"
+       },
+       {
+        "ja": "続ける・直す・止めるを数字で決める。",
+        "en": "Decide grow / fix / stop with numbers."
+       }
+      ]
+     ]
+    },
+    {
+     "type": "journey",
+     "steps": [
+      {
+       "ja": "知る",
+       "en": "Discover"
+      },
+      {
+       "ja": "ネットで買う",
+       "en": "Order online"
+      },
+      {
+       "ja": "届く",
+       "en": "Delivery"
+      },
+      {
+       "ja": "家で楽しむ",
+       "en": "Enjoy at home"
+      },
+      {
+       "ja": "また買う",
+       "en": "Buy again"
+      }
+     ]
+    },
+    {
+     "type": "groups"
+    }
+   ]
+  },
+  {
+   "id": "structure",
+   "chapter": "2",
+   "title": {
+    "ja": "計画の形：W・P・L・PJ",
+    "en": "How the plan is organised"
+   },
+   "brief": {
+    "ja": "前の版では「{仕組|しく}み」と「事業計画」が混ざり、分かりにくくなっていました。そこで、役割の違う4つの記号に分けました。Wは会社を動かす仕組み、Pはお金が入る入口、Lは売る商品、PJは今期の{取組|とりく}みです。",
+    "en": "Earlier, capabilities and business plans overlapped. We now use four codes with distinct roles: W = how we run, P = where money comes in, L = what we sell, PJ = what we do this phase."
+   },
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      {
+       "ja": "記号",
+       "en": "Code"
+      },
+      {
+       "ja": "名前",
+       "en": "Name"
+      },
+      {
+       "ja": "意味",
+       "en": "Meaning"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "ja": "W01〜W10",
+        "en": "W01〜W10"
+       },
+       {
+        "ja": "会社を動かす10の{仕組|しく}み",
+        "en": "10 Core Systems That Make Yamada Work"
+       },
+       {
+        "ja": "会社がずっと持つ機能。お金は直接生まないが、全部を支える。",
+        "en": "Permanent capabilities; they earn nothing directly but support everything."
+       }
+      ],
+      [
+       {
+        "ja": "P01〜P12",
+        "en": "P01〜P12"
+       },
+       {
+        "ja": "売上と利益をつくる12の道",
+        "en": "12 Revenue Paths for Sales & Profit"
+       },
+       {
+        "ja": "お金の入口ごとの中長期計画。",
+        "en": "A plan for each way money comes in."
+       }
+      ],
+      [
+       {
+        "ja": "L0〜L3",
+        "en": "L0〜L3"
+       },
+       {
+        "ja": "商品ライン",
+        "en": "Product Lineup"
+       },
+       {
+        "ja": "お客様に売る物。",
+        "en": "What we sell."
+       }
+      ],
+      [
+       {
+        "ja": "PJ",
+        "en": "PJ"
+       },
+       {
+        "ja": "実行プロジェクト",
+        "en": "Execution Projects"
+       },
+       {
+        "ja": "担当と期限を決めて進める仕事。",
+        "en": "Work with an owner and a deadline."
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "ja": "たとえると：自転車で言えば、Wはタイヤとチェーン、Pは行き先、Lは荷物、PJは今日走る道です。",
+      "en": "Like a bicycle: W = wheels and chain, P = destination, L = luggage, PJ = today's route."
+     }
+    },
+    {
+     "type": "h",
+     "text": {
+      "ja": "名前の表示（5つの欄）",
+      "en": "Name display — five fields"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "ja": "すべての資料で、同じ順番で書きます：記号 → 日本語の正式名 → 英語の正式名 → 日本語のやさしい説明 → 英語のやさしい説明。やさしい呼び名は補助で、正式名の代わりにしません。",
+      "en": "Every document uses the same order: code → Japanese official title → English official title → simple Japanese explainer → simple English explainer. The easy nickname is supporting copy only."
+     }
+    },
+    {
+     "type": "h",
+     "text": {
+      "ja": "見分け方",
+      "en": "Look-alikes"
+     }
+    },
+    {
+     "type": "table",
+     "head": [
+      {
+       "ja": "記号",
+       "en": "Code"
+      },
+      {
+       "ja": "役割",
+       "en": "Role"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "ja": "W02",
+        "en": "W02"
+       },
+       {
+        "ja": "売り場を動かす{仕組|しく}み",
+        "en": "Runs our selling places"
+       }
+      ],
+      [
+       {
+        "ja": "P05",
+        "en": "P05"
+       },
+       {
+        "ja": "ほかのネット売り場で売上を増やす道",
+        "en": "Grows sales on other marketplaces"
+       }
+      ],
+      [
+       {
+        "ja": "W06",
+        "en": "W06"
+       },
+       {
+        "ja": "お客様とのつながりを続ける{仕組|しく}み",
+        "en": "Keeps the customer relationship"
+       }
+      ],
+      [
+       {
+        "ja": "P02",
+        "en": "P02"
+       },
+       {
+        "ja": "そこから生まれるリピートの売上",
+        "en": "The repeat revenue it creates"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "info",
+     "text": {
+      "ja": "Pは「お金の入口」だけに使う。SNS・{物流|ぶつりゅう}・データ・組織などの{仕組|しく}みは必ずWに置く。",
+      "en": "P is used only for revenue paths. Capabilities such as social media, logistics, data and organisation always sit in W."
+     }
+    }
+   ]
+  },
+  {
+   "id": "lines",
+   "chapter": "5",
+   "title": {
+    "ja": "商品ライン L0〜L3",
+    "en": "Product lines L0–L3"
+   },
+   "brief": {
+    "ja": "新しい商品を思いつくままに作ると、在庫と失敗が増えます。そこで商品を4つのラインに分けます。発売するのは、品質・表示・{採算|さいさん}のゲートを通った商品だけです。",
+    "en": "Developing products on impulse multiplies stock and failures. Products are grouped into four lines, and only items that pass the quality, labelling and profit gates launch."
+   },
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      {
+       "ja": "ライン",
+       "en": "Line"
+      },
+      {
+       "ja": "内容",
+       "en": "Content"
+      },
+      {
+       "ja": "役割",
+       "en": "Role"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "ja": "L0",
+        "en": "L0"
+       },
+       {
+        "ja": "既存品（今ある商品）",
+        "en": "Existing products"
+       },
+       {
+        "ja": "まず改善とセット化",
+        "en": "Improve and bundle first"
+       }
+      ],
+      [
+       {
+        "ja": "L1",
+        "en": "L1"
+       },
+       {
+        "ja": "丼とフルセット（{冷凍|れいとう}）",
+        "en": "Don & full sets (frozen)"
+       },
+       {
+        "ja": "早い売上・リピート",
+        "en": "Fast revenue, repeat"
+       }
+      ],
+      [
+       {
+        "ja": "L2",
+        "en": "L2"
+       },
+       {
+        "ja": "{防災|ぼうさい}{備蓄|びちく}食（{常温|じょうおん}・OEM）",
+        "en": "Stockpile food (ambient, OEM)"
+       },
+       {
+        "ja": "長期の利益エンジン",
+        "en": "Long-term profit engine"
+       }
+      ],
+      [
+       {
+        "ja": "L3",
+        "en": "L3"
+       },
+       {
+        "ja": "新商品・パイロット",
+        "en": "New products & pilots"
+       },
+       {
+        "ja": "新しい味の試験",
+        "en": "New-flavour tests"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "roadmap",
+   "chapter": "7",
+   "title": {
+    "ja": "3{段階|だんかい}のロードマップ",
+    "en": "Three-phase roadmap"
+   },
+   "brief": {
+    "ja": "一度に大きく投資せず、「試す→育てる→広げる」の3{段階|だんかい}で進めます。次の段階に進むのは、決めた条件を満たした時だけです。",
+    "en": "No big upfront investment: test → grow → expand. Each step needs its conditions met."
+   },
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      {
+       "ja": "{段階|だんかい}",
+       "en": "Phase"
+      },
+      {
+       "ja": "期間",
+       "en": "Period"
+      },
+      {
+       "ja": "主な内容",
+       "en": "Main work"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "ja": "第1{段階|だんかい} 試す",
+        "en": "Phase 1 Test"
+       },
+       {
+        "ja": "2026年11月〜2027年4月",
+        "en": "Nov 2026 – Apr 2027"
+       },
+       {
+        "ja": "{仕組|しく}みを整え、今ある商品を改善し、新商品は小さく試す",
+        "en": "Set up systems, improve existing products, test new products small"
+       }
+      ],
+      [
+       {
+        "ja": "第2{段階|だんかい} 育てる",
+        "en": "Phase 2 Grow"
+       },
+       {
+        "ja": "2027年5月〜2028年10月",
+        "en": "May 2027 – Oct 2028"
+       },
+       {
+        "ja": "利益が出た物に人とお金を増やす",
+        "en": "Add people and money where profit is proven"
+       }
+      ],
+      [
+       {
+        "ja": "第3{段階|だんかい} 広げる",
+        "en": "Phase 3 Expand"
+       },
+       {
+        "ja": "2028年11月〜",
+        "en": "From Nov 2028"
+       },
+       {
+        "ja": "大きな市場へ進む",
+        "en": "Enter larger markets"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gates",
+   "chapter": "9",
+   "title": {
+    "ja": "進め方のルールとゲート",
+    "en": "Rules and gates"
+   },
+   "brief": {
+    "ja": "小さく試して広げるために、「どこまで来たら次に進んでよいか」を先に決めます。ゲートは関所のような物で、証拠がそろえば次へ、そろわなければ直すか止めます。計画に書いてあるだけでは、お金を使ってよいという意味ではありません。",
+    "en": "To scale safely we agree in advance when we may move on. Gates are checkpoints: move on with evidence, otherwise fix or stop. Being in the plan is not permission to spend."
+   },
+   "blocks": [
+    {
+     "type": "table",
+     "head": [
+      {
+       "ja": "ゲート",
+       "en": "Gate"
+      },
+      {
+       "ja": "意味",
+       "en": "Meaning"
+      },
+      {
+       "ja": "必要な証拠",
+       "en": "Evidence"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "ja": "G0",
+        "en": "G0"
+       },
+       {
+        "ja": "開始前",
+        "en": "Before start"
+       },
+       {
+        "ja": "範囲・責任者・損失の上限",
+        "en": "Scope, owner, loss limit"
+       }
+      ],
+      [
+       {
+        "ja": "G1",
+        "en": "G1"
+       },
+       {
+        "ja": "数字と手順の安定",
+        "en": "Stable numbers and procedures"
+       },
+       {
+        "ja": "{基準値|きじゅんち}、データ、手順書",
+        "en": "Baseline, data, procedures"
+       }
+      ],
+      [
+       {
+        "ja": "G2",
+        "en": "G2"
+       },
+       {
+        "ja": "利益の確認",
+        "en": "Profit check"
+       },
+       {
+        "ja": "注文あたり利益、{送料|そうりょう}、全費用",
+        "en": "Profit per order, freight, all costs"
+       }
+      ],
+      [
+       {
+        "ja": "G3",
+        "en": "G3"
+       },
+       {
+        "ja": "また買われるか",
+        "en": "Repeat check"
+       },
+       {
+        "ja": "期間別リピート、2回目購入、獲得費の回収",
+        "en": "Repeat by period, second purchase, payback"
+       }
+      ],
+      [
+       {
+        "ja": "G4",
+        "en": "G4"
+       },
+       {
+        "ja": "少し広げる",
+        "en": "Limited expansion"
+       },
+       {
+        "ja": "生産能力、品質、{販路|はんろ}別の利益",
+        "en": "Capacity, quality, profit by channel"
+       }
+      ],
+      [
+       {
+        "ja": "G5",
+        "en": "G5"
+       },
+       {
+        "ja": "大きく広げる",
+        "en": "Scale"
+       },
+       {
+        "ja": "再現性、資金、責任者と{承認|しょうにん}",
+        "en": "Repeatability, funds, owner and approval"
+       }
+      ],
+      [
+       {
+        "ja": "G6",
+        "en": "G6"
+       },
+       {
+        "ja": "終了・移行",
+        "en": "Stop or hand over"
+       },
+       {
+        "ja": "引継ぎ、{撤退|てったい}、記録の保存",
+        "en": "Handover, exit, records"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      {
+       "ja": "判断",
+       "en": "Decision"
+      },
+      {
+       "ja": "条件",
+       "en": "When"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "ja": "止める STOP",
+        "en": "止める STOP"
+       },
+       {
+        "ja": "品質・表示・測定ができていない、または損失の上限を超えた",
+        "en": "Quality, labelling or measurement missing, or loss limit exceeded"
+       }
+      ],
+      [
+       {
+        "ja": "直す IMPROVE",
+        "en": "直す IMPROVE"
+       },
+       {
+        "ja": "価格・量・{送料|そうりょう}・作業で直せる",
+        "en": "Can be fixed through price, volume, freight or work"
+       }
+      ],
+      [
+       {
+        "ja": "広げる SCALE",
+        "en": "広げる SCALE"
+       },
+       {
+        "ja": "証拠・利益・体制がそろった範囲だけ",
+        "en": "Only where evidence, profit and team are in place"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "info",
+     "text": {
+      "ja": "AIは整理や作業を手伝う。最後に決めるのは人。予算と発売は、それぞれ{承認|しょうにん}を受ける。",
+      "en": "AI helps with information and tasks. People make the final decisions. Budgets and launches each need approval."
+     }
+    }
+   ]
+  }
+ ]
 }
