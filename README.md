@@ -33,3 +33,6 @@ Deployment FesQYit3gKKCprAVpXi3858zacDp at commit 7421658 failed because Vercel 
 The former vanilla-JavaScript demo remains in Git history. Its automatic internal-content fallback is removed from the production build.
 
 See docs/content-workflow.md and docs/verification.md.
+
+## Routes (2026-11-18)
+`/` storefront prototype · `/proposal/...` management proposal. See `docs/HANDOFF.md` and `docs/MASTER.md`.

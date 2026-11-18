@@ -1,0 +1,1 @@
+- 2026-11-18: Storefront at `/`, proposal moved to `/proposal` (old paths redirect), shop data model, HANDOFF/MASTER added.
