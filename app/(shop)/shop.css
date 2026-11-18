@@ -74,4 +74,4 @@ a.s-card:hover{border-color:var(--red)}
 @media (min-width:860px){.s-tabbar{display:none}.shop{padding-bottom:0}}
 @media (prefers-reduced-motion:reduce){.shop *{scroll-behavior:auto!important;transition:none!important}}
 
-.shop .s-list{list-style:none;padding:0;margin:.5rem 0;display:grid;gap:.5rem}.shop .s-list a{display:block;min-height:44px;padding:.7rem 1rem;border:1px solid var(--s-line,#e5d8c4);border-radius:10px}
+.shop .s-list{list-style:none;padding:0;margin:.5rem 0;display:grid;gap:.5rem}.shop .s-list a{display:block;min-height:44px;padding:.7rem 1rem;border:1px solid var(--line);border-radius:10px}
