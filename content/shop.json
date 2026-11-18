@@ -1,0 +1,232 @@
+{
+ "mode": "proposal",
+ "announcement": {
+  "ja": "これは試作画面です。ご注文・お支払いはできません。",
+  "en": "This is a prototype. Orders and payments are not available."
+ },
+ "hero": {
+  "title": {
+   "ja": "お店で親しまれる山田の味を、おうちでも。",
+   "en": "The taste loved in our stores, now at home."
+  },
+  "text": {
+   "ja": "山田うどんの名物「パンチ（もつ煮込み）」をはじめ、人気の味をおうちの食卓へ。毎日のごはんにも、家族とのひとときにも、贈り物にも。まずは新しい商品からご紹介します。",
+   "en": "From our signature Punch (motsu-ni) to other favourites, bring Yamada to your table — for everyday meals, family time and gifts. We begin with our new products."
+  },
+  "primary": {
+   "ja": "新商品を見る",
+   "en": "See new products"
+  },
+  "secondary": {
+   "ja": "カテゴリーから探す",
+   "en": "Browse by category"
+  }
+ },
+ "sections": {
+  "announcement": true,
+  "quick": true,
+  "featured": true,
+  "categories": true,
+  "sets": false,
+  "story": true,
+  "experience": false,
+  "proposal": true,
+  "guidance": true
+ },
+ "slots": [
+  {
+   "label": {
+    "ja": "新商品紹介枠 A",
+    "en": "New product slot A"
+   }
+  },
+  {
+   "label": {
+    "ja": "新商品紹介枠 B",
+    "en": "New product slot B"
+   }
+  }
+ ],
+ "categories": [
+  {
+   "code": "CAT-01",
+   "slug": "cat-01",
+   "name": {
+    "ja": "山田の名物・定番",
+    "en": "Yamada Classics"
+   },
+   "intro": {
+    "ja": "お店で親しまれてきた味を、おうちで。",
+    "en": "Favourites from our stores, at home."
+   }
+  },
+  {
+   "code": "CAT-02",
+   "slug": "cat-02",
+   "name": {
+    "ja": "冷凍のお食事",
+    "en": "Frozen Meals"
+   },
+   "intro": {
+    "ja": "ごはんや麺にのせるだけ。冷凍でお届けするお食事。",
+    "en": "Frozen meals that are quick to prepare."
+   }
+  },
+  {
+   "code": "CAT-03",
+   "slug": "cat-03",
+   "name": {
+    "ja": "セット・ギフト",
+    "en": "Sets & Gifts"
+   },
+   "intro": {
+    "ja": "ご家庭用にも、贈り物にも。",
+    "en": "For the family table or as a gift."
+   }
+  },
+  {
+   "code": "CAT-04",
+   "slug": "cat-04",
+   "name": {
+    "ja": "手打ち・体験キット",
+    "en": "Hand-made & Experience Kits"
+   },
+   "intro": {
+    "ja": "家族や仲間と、うどんづくりを楽しむ。",
+    "en": "Make udon together with family and friends."
+   }
+  },
+  {
+   "code": "CAT-05",
+   "slug": "cat-05",
+   "name": {
+    "ja": "グッズ・その他",
+    "en": "Goods & Others"
+   },
+   "intro": {
+    "ja": "山田うどんのグッズなど。",
+    "en": "Yamada Udon goods and more."
+   }
+  },
+  {
+   "code": "CAT-06",
+   "slug": "cat-06",
+   "name": {
+    "ja": "常温・乾麺",
+    "en": "Ambient & Dry Noodles"
+   },
+   "intro": {
+    "ja": "常温で保存できる乾麺など。",
+    "en": "Dry noodles and other room-temperature items."
+   }
+  }
+ ],
+ "batches": [
+  {
+   "n": 1,
+   "label": {
+    "ja": "第1弾",
+    "en": "First release"
+   },
+   "status": "plan",
+   "launchDate": null,
+   "productSlugs": []
+  }
+ ],
+ "products": [],
+ "statusLabels": {
+  "plan": {
+   "ja": "企画",
+   "en": "Planning"
+  },
+  "prototype": {
+   "ja": "試作",
+   "en": "Prototype"
+  },
+  "prelaunch": {
+   "ja": "発売前",
+   "en": "Pre-launch"
+  },
+  "live": {
+   "ja": "発売",
+   "en": "On sale"
+  }
+ },
+ "guide": [
+  {
+   "slug": "shipping",
+   "title": {
+    "ja": "送料・お届けについて",
+    "en": "Shipping and delivery"
+   }
+  },
+  {
+   "slug": "faq",
+   "title": {
+    "ja": "よくある質問",
+    "en": "Frequently asked questions"
+   }
+  },
+  {
+   "slug": "payment",
+   "title": {
+    "ja": "お支払いについて",
+    "en": "Payment"
+   }
+  },
+  {
+   "slug": "legal",
+   "title": {
+    "ja": "特定商取引法に基づく表記",
+    "en": "Legal notice (Specified Commercial Transactions Act)"
+   }
+  }
+ ],
+ "story": {
+  "title": {
+   "ja": "山田のこだわり",
+   "en": "Our approach"
+  },
+  "note": {
+   "ja": "公式の紹介文は、承認後に掲載します。",
+   "en": "The approved company introduction will be added after review."
+  }
+ },
+ "proposalLinks": [
+  {
+   "href": "/proposal/capabilities",
+   "title": {
+    "ja": "会社を動かす10の仕組み（W）",
+    "en": "Ten ways we run the business (W)"
+   }
+  },
+  {
+   "href": "/proposal/engines",
+   "title": {
+    "ja": "売上と利益をつくる12の道（P）",
+    "en": "Twelve revenue paths (P)"
+   }
+  },
+  {
+   "href": "/proposal/projects",
+   "title": {
+    "ja": "第1段階のプロジェクト（PJ）",
+    "en": "Phase 1 projects (PJ)"
+   }
+  },
+  {
+   "href": "/proposal/roadmap",
+   "title": {
+    "ja": "3段階の道筋",
+    "en": "Three-phase roadmap"
+   }
+  },
+  {
+   "href": "/proposal/decisions",
+   "title": {
+    "ja": "経営に決めてほしいこと",
+    "en": "Decisions for management"
+   }
+  }
+ ]
+}
