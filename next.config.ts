@@ -8,6 +8,8 @@ const config: NextConfig = {
   poweredByHeader: false,
   async redirects() {
     return [
+      // /products itself is the storefront list; only the nested old product-line pages move.
+      { source: '/products/:code', destination: '/proposal/lines/:code', permanent: true },
       ...moved.flatMap((s) => [
         { source: `/${s}`, destination: `/proposal/${s}`, permanent: true },
         { source: `/${s}/:code`, destination: `/proposal/${s}/:code`, permanent: true },

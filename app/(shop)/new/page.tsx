@@ -20,6 +20,15 @@ export default function NewProducts() {
             </div>
             <p className="s-muted">発売日：{b.launchDate ?? '未定'}<span className="s-en" lang="en">Launch date: {b.launchDate ?? 'to be decided'}</span></p>
             {items.length === 0 && <p>商品は準備中です。<span className="s-en" lang="en">Products are in preparation.</span></p>}
+            {items.length > 0 && (
+              <ul className="s-list">
+                {items.map((p) => (
+                  <li key={p.slug}>
+                    <Link href={`/p/${p.slug}`}>{p.name?.ja ?? '商品名 未定'}</Link>
+                  </li>
+                ))}
+              </ul>
+            )}
           </section>
         );
       })}
