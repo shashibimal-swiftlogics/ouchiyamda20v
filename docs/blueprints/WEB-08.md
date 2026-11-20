@@ -6,7 +6,7 @@
 | Status | DRAFT v0.1 (2026-11-20) — not approved |
 | Group | Showcase |
 | Phase | P |
-| Proposed route | /proposal/roadmap (includes a Future expansion section, /proposal/future) |
+| Proposed route | /proposal/roadmap (exists; extend) with a Future expansion section |
 | Build slice | Slice 2 |
 | Approver | Shashi (情報企画部) |
 | Depends on | Shashi plan and cost ceiling |
@@ -28,6 +28,8 @@ Plan, labelled as proposal.
 
 ## 5. Guardrails that apply
 See AGENTS.md. In particular: No unverified claims, no prices, no real product names or photos until approved; no internal figures in the public repo.
+
+> Existing page on PR #2's branch: reuse and extend it; do not create a parallel route. See ROUTES.md.
 
 ## 5a. To write when this blueprint is approved
 - User story

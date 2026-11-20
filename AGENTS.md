@@ -26,7 +26,7 @@ Win management approval (経営承認) for the next stage. The site is a showcas
 - Demos and mocks are always visibly labelled (試作 / DEMO). Never build a lookalike login or payment form.
 - noindex is not authentication. Internal content needs Vercel Deployment Protection before it goes online.
 - Motion over 5 s needs Pause; always Skip; honour reduced motion; no new animation library; no hard-coded colours (use tokens; check a variable exists before using it).
-- Page codes are WEB-xx. W01–W10 and P01–P12 are business codes (wheels, revenue programmes) only.
+- Page codes are WEB-xx. W01–W10 (operating wheels), P01–P12 (revenue programmes), L0–L3 (product lines) and PJ-OY2-xx (projects) are business codes only. Never use them as page codes.
 
 ## Claims on hold (unsourced — do not publish)
 年248万食 · 昭和十年創業 · 入間工場 −18℃ · 湯煎8分 · 一番人気 · 81.7% mobile · 変わらないおいしさ · 冷凍でお届け · 手でつくる · 埼玉のソウルフード

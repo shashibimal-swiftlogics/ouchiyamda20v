@@ -24,6 +24,6 @@ Draft v0.2, 2026-11-20 (routes, protection and template aligned with GPT v1.5 af
 
 WEB-xx are page blueprint codes. W01–W10 and P01–P12 are business codes only (wheels and revenue programmes).
 
-**Routes.** Showcase pages live under /proposal/... behind management protection. The whole Phase P preview, including /, /new and /p/[slug], is protected. Existing /proposal/lines/[code] and the legacy redirects are preserved.
+**Routes.** See ROUTES.md for the crosswalk against existing routes. Where a page already exists, extend it. Showcase pages live under /proposal/... behind management protection. The whole Phase P preview, including /, /new and /p/[slug], is protected. Existing /proposal/lines/[code] and the legacy redirects are preserved.
 
 **Mapping to legacy groups.** BP-01 -> WEB-01, 02, 03, 12. BP-02 -> WEB-03, 04, 14. BP-03 -> WEB-02, 03, 04. BP-04 -> WEB-02, 05..10. BP-05 and BP-07 -> Phase C (demo touchpoints only). BP-06 -> WEB-11, 13, 14. BP-08 -> WEB-12..15.

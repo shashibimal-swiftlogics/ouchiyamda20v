@@ -6,7 +6,7 @@
 | Status | DRAFT v0.1 (2026-11-20) — not approved |
 | Group | Showcase |
 | Phase | P |
-| Proposed route | /proposal/evidence (redacted by default; stronger authorisation) |
+| Proposed route | /proposal/evidence (exists; extend; redacted by default; stronger authorisation) |
 | Build slice | Slice 4 |
 | Approver | Shashi (情報企画部) |
 | Depends on | V3-Q4, Deployment Protection |
@@ -29,6 +29,8 @@ Real only when sourced and approved; otherwise labelled demo.
 
 ## 5. Guardrails that apply
 See AGENTS.md. In particular: No unverified claims, no prices, no real product names or photos until approved; no internal figures in the public repo. Must be behind Vercel Deployment Protection before online. 81.7% mobile is unsourced.
+
+> Existing page on PR #2's branch: reuse and extend it; do not create a parallel route. See ROUTES.md.
 
 ## 5a. To write when this blueprint is approved
 - User story
