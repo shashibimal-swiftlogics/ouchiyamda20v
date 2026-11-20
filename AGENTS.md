@@ -37,5 +37,8 @@ Next.js 16.4.2 App Router, TypeScript, Tailwind 4, pnpm, Vercel. Storefront styl
 ## Language
 Documents: Japanese main text with furigana on key words, English beneath. Public-page language behaviour is an open decision (REC-05).
 
+## Phase P access
+The whole Phase P preview is protected (Vercel Deployment Protection). Showcase pages live under /proposal/.... If an approved instruction file already exists in the repo, it takes precedence over this one; reconcile before use.
+
 ## Who decides
 Shashi. Tools propose; they do not decide open items (see MASTER section 15 and v3.1 V3-Q1..Q6).

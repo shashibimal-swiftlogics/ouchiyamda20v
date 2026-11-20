@@ -26,6 +26,9 @@
 ## 5. Guardrails that apply
 See AGENTS.md. In particular: <guard>
 
+## 5a. User story; draft copy JA/EN; wireframe sequence; data contract
+<to be written at approval>
+
 ## 6. Build tasks
 <tasks>
 

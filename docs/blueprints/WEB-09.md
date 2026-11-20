@@ -6,7 +6,7 @@
 | Status | DRAFT v0.1 (2026-11-20) — not approved |
 | Group | Showcase |
 | Phase | P |
-| Proposed route | /evidence (proposed, protected) |
+| Proposed route | /proposal/evidence (redacted by default; stronger authorisation) |
 | Build slice | Slice 4 |
 | Approver | Shashi (情報企画部) |
 | Depends on | V3-Q4, Deployment Protection |
@@ -17,7 +17,9 @@ Supports the business case with traceable data.
 ## 2. Content (every fact needs a named source before it is shown)
 - Each figure: value, source, date, owner
 - Illustrative figures labelled DEMO DATA
-- Internal figures never in the public repo
+- Internal figures never in the public repo or in client-side bundles
+- Redacted by default: show source, date, period, owner, confidence, privacy class, open items and approval state; no figures until approved
+- D-19 stays OPEN; ¥11.86M is not approved as audited or reconciled
 
 ## 3. Real or demo
 Real only when sourced and approved; otherwise labelled demo.
@@ -27,6 +29,12 @@ Real only when sourced and approved; otherwise labelled demo.
 
 ## 5. Guardrails that apply
 See AGENTS.md. In particular: No unverified claims, no prices, no real product names or photos until approved; no internal figures in the public repo. Must be behind Vercel Deployment Protection before online. 81.7% mobile is unsourced.
+
+## 5a. To write when this blueprint is approved
+- User story
+- Draft copy, Japanese and English (Japanese with furigana on key words)
+- Wireframe sequence
+- Mock or data contract (field names, sample data labelled SAMPLE)
 
 ## 6. Build tasks
 - Data loaded from protected source, not committed

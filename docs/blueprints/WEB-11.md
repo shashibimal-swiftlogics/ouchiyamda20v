@@ -6,7 +6,7 @@
 | Status | DRAFT v0.1 (2026-11-20) — not approved |
 | Group | Showcase |
 | Phase | P |
-| Proposed route | /admin-demo (proposed, protected) |
+| Proposed route | /proposal/admin-demo (optional) |
 | Build slice | Slice 4 |
 | Approver | Shashi (情報企画部) |
 | Depends on | WEB-03, WEB-09 |
@@ -17,6 +17,8 @@ Shows the future CMS and approval flow as polished mock screens. Optional, high 
 ## 2. Content (every fact needs a named source before it is shown)
 - Mock product, release and approval screens
 - Approval flow: draft, review, approved, published
+- Five illustrative desks: Catalogue and Merchandising; Fulfilment and Logistics; Finance and D-19 (redacted); Three-Change Governance; AI Data Hub and BI (synthetic or redacted)
+- UI states only; no real accounts, endpoints or data
 
 ## 3. Real or demo
 MOCK. Every screen labelled DEMO. No real login, no real data, no real save.
@@ -26,6 +28,12 @@ MOCK. Every screen labelled DEMO. No real login, no real data, no real save.
 
 ## 5. Guardrails that apply
 See AGENTS.md. In particular: No unverified claims, no prices, no real product names or photos until approved; no internal figures in the public repo. Must not look like a real login form. No password fields.
+
+## 5a. To write when this blueprint is approved
+- User story
+- Draft copy, Japanese and English (Japanese with furigana on key words)
+- Wireframe sequence
+- Mock or data contract (field names, sample data labelled SAMPLE)
 
 ## 6. Build tasks
 - Static mock screens

@@ -6,7 +6,7 @@
 | Status | DRAFT v0.1 (2026-11-20) — not approved |
 | Group | Showcase |
 | Phase | P |
-| Proposed route | /digital-place (proposed) |
+| Proposed route | /proposal/digital-place |
 | Build slice | Slice 2 |
 | Approver | Shashi (情報企画部) |
 | Depends on | Vision 2.6.4 material from Shashi |
@@ -26,6 +26,12 @@ Explanatory; diagrams labelled illustrative.
 
 ## 5. Guardrails that apply
 See AGENTS.md. In particular: No unverified claims, no prices, no real product names or photos until approved; no internal figures in the public repo.
+
+## 5a. To write when this blueprint is approved
+- User story
+- Draft copy, Japanese and English (Japanese with furigana on key words)
+- Wireframe sequence
+- Mock or data contract (field names, sample data labelled SAMPLE)
 
 ## 6. Build tasks
 - Diagram component using shared tokens

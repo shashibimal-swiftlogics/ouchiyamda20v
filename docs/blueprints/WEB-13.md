@@ -30,6 +30,12 @@ n/a
 ## 5. Guardrails that apply
 See AGENTS.md. In particular: Never commit internal figures or secrets.
 
+## 5a. To write when this blueprint is approved
+- User story
+- Draft copy, Japanese and English (Japanese with furigana on key words)
+- Wireframe sequence
+- Mock or data contract (field names, sample data labelled SAMPLE)
+
 ## 6. Build tasks
 - Checklist before each deploy
 - Dependency audit

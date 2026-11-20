@@ -6,7 +6,7 @@
 | Status | DRAFT v0.1 (2026-11-20) — not approved |
 | Group | Showcase |
 | Phase | P |
-| Proposed route | / (intro layer, flag off by default) |
+| Proposed route | /proposal/showcase (film start; intro layer stays flag-off) |
 | Build slice | Slice 3 (after V3-Q1/Q2 and footage) |
 | Approver | Shashi (情報企画部) |
 | Depends on | CIN-Q1..Q6, V3-Q1, V3-Q2, original footage |
@@ -30,6 +30,12 @@ Showcase piece; intro stays OFF behind a feature flag until footage is approved.
 
 ## 5. Guardrails that apply
 See AGENTS.md. In particular: No unverified claims, no prices, no real product names or photos until approved; no internal figures in the public repo. Other brands' images are mood reference only. No animation library; use shared colour tokens. Moving content over 5 s needs Pause.
+
+## 5a. To write when this blueprint is approved
+- User story
+- Draft copy, Japanese and English (Japanese with furigana on key words)
+- Wireframe sequence
+- Mock or data contract (field names, sample data labelled SAMPLE)
 
 ## 6. Build tasks
 - CIN-1: intro shell with flag, Skip, Pause, still fallback (no footage)

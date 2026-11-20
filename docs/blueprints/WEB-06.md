@@ -6,7 +6,7 @@
 | Status | DRAFT v0.1 (2026-11-20) — not approved |
 | Group | Showcase |
 | Phase | P |
-| Proposed route | /operating-model (proposed) |
+| Proposed route | /proposal/operating-model |
 | Build slice | Slice 2 |
 | Approver | Shashi (情報企画部) |
 | Depends on | Business master (W/P definitions) |
@@ -26,6 +26,12 @@ Real model description; no financial figures unless sourced.
 
 ## 5. Guardrails that apply
 See AGENTS.md. In particular: No unverified claims, no prices, no real product names or photos until approved; no internal figures in the public repo. Do not reuse W/P codes for pages.
+
+## 5a. To write when this blueprint is approved
+- User story
+- Draft copy, Japanese and English (Japanese with furigana on key words)
+- Wireframe sequence
+- Mock or data contract (field names, sample data labelled SAMPLE)
 
 ## 6. Build tasks
 - Data file for wheels and engines

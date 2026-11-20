@@ -1,6 +1,6 @@
 # Blueprint index (docs/blueprints)
 
-Draft v0.1, 2026-11-20. Replaces the storefront-first BP-01..08 as the build guide for Phase P. Template: TEMPLATE.md.
+Draft v0.2, 2026-11-20 (routes, protection and template aligned with GPT v1.5 after cross-check). Replaces the storefront-first BP-01..08 as the build guide for Phase P. Template: TEMPLATE.md.
 
 | ID | Title | Group | Slice | Route |
 |---|---|---|---|---|
@@ -23,3 +23,7 @@ Draft v0.1, 2026-11-20. Replaces the storefront-first BP-01..08 as the build gui
 **Slices.** 0 = shared rules and checks; 1 = executive landing and decision centre; 2 = storefront demo, gallery, digital place, operating model, AI capability, roadmap; 3 = cinematic entrance; 4 = evidence dashboard and demo admin.
 
 WEB-xx are page blueprint codes. W01–W10 and P01–P12 are business codes only (wheels and revenue programmes).
+
+**Routes.** Showcase pages live under /proposal/... behind management protection. The whole Phase P preview, including /, /new and /p/[slug], is protected. Existing /proposal/lines/[code] and the legacy redirects are preserved.
+
+**Mapping to legacy groups.** BP-01 -> WEB-01, 02, 03, 12. BP-02 -> WEB-03, 04, 14. BP-03 -> WEB-02, 03, 04. BP-04 -> WEB-02, 05..10. BP-05 and BP-07 -> Phase C (demo touchpoints only). BP-06 -> WEB-11, 13, 14. BP-08 -> WEB-12..15.

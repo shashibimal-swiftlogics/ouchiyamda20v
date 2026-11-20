@@ -6,7 +6,7 @@
 | Status | DRAFT v0.1 (2026-11-20) — not approved |
 | Group | Showcase |
 | Phase | P |
-| Proposed route | /roadmap (proposed) |
+| Proposed route | /proposal/roadmap (includes a Future expansion section, /proposal/future) |
 | Build slice | Slice 2 |
 | Approver | Shashi (情報企画部) |
 | Depends on | Shashi plan and cost ceiling |
@@ -17,6 +17,7 @@ Shows stages, controls and responsibilities, and where management can stop.
 ## 2. Content (every fact needs a named source before it is shown)
 - Stage A and Stage B gates; Phase P vs Phase C
 - Responsibilities by role
+- Section: Future expansion (Phase C vision). Must not suggest that approval for Phase C is being requested
 - Cost and time only if supplied and sourced
 
 ## 3. Real or demo
@@ -27,6 +28,12 @@ Plan, labelled as proposal.
 
 ## 5. Guardrails that apply
 See AGENTS.md. In particular: No unverified claims, no prices, no real product names or photos until approved; no internal figures in the public repo.
+
+## 5a. To write when this blueprint is approved
+- User story
+- Draft copy, Japanese and English (Japanese with furigana on key words)
+- Wireframe sequence
+- Mock or data contract (field names, sample data labelled SAMPLE)
 
 ## 6. Build tasks
 - Timeline component from data

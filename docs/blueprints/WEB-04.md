@@ -6,7 +6,7 @@
 | Status | DRAFT v0.1 (2026-11-20) — not approved |
 | Group | Showcase |
 | Phase | P |
-| Proposed route | /gallery (proposed) |
+| Proposed route | /proposal/innovation |
 | Build slice | Slice 2 |
 | Approver | Shashi (情報企画部) |
 | Depends on | V3-Q3, asset approvals |
@@ -28,6 +28,12 @@ Concepts are labelled; no real prices.
 
 ## 5. Guardrails that apply
 See AGENTS.md. In particular: No unverified claims, no prices, no real product names or photos until approved; no internal figures in the public repo.
+
+## 5a. To write when this blueprint is approved
+- User story
+- Draft copy, Japanese and English (Japanese with furigana on key words)
+- Wireframe sequence
+- Mock or data contract (field names, sample data labelled SAMPLE)
 
 ## 6. Build tasks
 - Gallery grid from catalogue data
