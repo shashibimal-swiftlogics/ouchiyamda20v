@@ -4,7 +4,7 @@ Date: 2026-11-20. Branch: docs/blueprint-framework (from origin/main). No pull r
 ## Commits
 - b1ec99d  framework v0.1: AGENTS.md, TASKS.md, blueprints WEB-01..15, template, index
 - f421256  v0.2: routes under /proposal, protected preview, registers, template fields
-- (next)   v0.2 consolidation: ROUTES.md crosswalk, existing-route reuse, business-code wording, this handover (see `git log`)
+- 78065b0  v0.2 consolidation: ROUTES.md crosswalk, existing-route reuse, business-code wording, this handover
 
 ## Files changed in this branch
 AGENTS.md; docs/TASKS.md; docs/REGISTERS.md; docs/blueprints/README.md, TEMPLATE.md, ROUTES.md, WEB-01..WEB-15.md; this file. No application code, config, routes, dependencies or deployment settings were changed.
